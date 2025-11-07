@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tinda ni Boss - Fresh Manggang Kalabaw</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8fff5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(90deg, #ffcc33, #79d70f, #ffa500);
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 600px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #4a8800;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .product {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    form label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+    form input, form select, form textarea {
+      width: 100%;
+      padding: 0.7rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-top: 0.3rem;
+      font-size: 1rem;
+    }
+    button {
+      background: #79d70f;
+      color: white;
+      border: none;
+      padding: 1rem;
+      font-size: 1.2rem;
+      border-radius: 10px;
+      width: 100%;
+      margin-top: 1.5rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #6bc00e;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    🍋 Tinda ni Boss — Fresh. Sweet. Delivered fast.
+  </header>
+
+  <div class="container">
+    <div class="product">
+      <img src="https://cdn.pixabay.com/photo/2017/07/24/22/25/mango-2534694_1280.jpg" alt="Manggang Kalabaw">
+      <h2>Manggang Kalabaw Medium (450–500g)</h2>
+      <p><strong>₱99</strong> / pack (2–3 pcs)</p>
+      <p>Same-day delivery via Lalamove or GrabExpress 🚚</p>
+    </div>
+
+    <h3>Place Your Order</h3>
+    <form>
+      <label>Full Name</label>
+      <input type="text" required>
+
+      <label>Contact Number</label>
+      <input type="text" required>
+
+      <label>Complete Address</label>
+      <textarea rows="2" required></textarea>
+
+      <label>Landmark (optional)</label>
+      <input type="text" placeholder="e.g. Near 7-Eleven or beside Barangay Hall">
+
+      <label>Best Time to Deliver</label>
+      <select required>
+        <option value="Morning">Morning (8AM–11AM)</option>
+        <option value="Afternoon">Afternoon (12NN–3PM)</option>
+        <option value="Evening">Evening (4PM–7PM)</option>
+      </select>
+
+      <label>Upload Proof of Payment</label>
+      <input type="file" accept="image/*" required>
+
+      <p><strong>Pay via GCash:</strong><br>
+        Name: Diosdado Diaz<br>
+        Number: 0966-594-0271<br>
+        Amount: ₱99 / pack
+      </p>
+
+      <!-- GCash QR Placeholder -->
+      <div style="text-align:center; margin:1rem 0;">
+        <p><strong>📱 Scan QR to Pay</strong></p>
+        <div style="width:200px; height:200px; margin:0 auto; border:2px dashed #79d70f; border-radius:10px; display:flex; align-items:center; justify-content:center; color:#79d70f;">
+          GCash QR Placeholder
+        </div>
+      </div>
+
+      <button type="submit">Submit Order</button>
+    </form>
+  </div>
+
+  <footer>
+    © 2025 Tinda ni Boss | Fresh Mangoes Delivered Fast 🍋
+  </footer>
+</body>
+</html>
